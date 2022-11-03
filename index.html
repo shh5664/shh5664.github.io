@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Old goods</title>
+    <link rel="stylesheet" href="./css/basic.css">
+    <link rel="stylesheet" href="./css/icon.css">
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <style>
+        .top_content{
+            width: 960px;
+            height: 180px;
+            position: relative;
+            margin-bottom: 10px;
+        }
+        .top_content h1{
+            text-align: center;
+        }
+       
+        .left_nav {
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            line-height: 35px;
+            top: 5px;
+            right: 10px;
+            position: left;
+        }
+
+        .left_nav>a {
+            display: inline-block;
+            padding: 2px 6px;
+        }
+
+        .left_nav>a:hover {
+            color: white;
+            background-color: blueviolet;
+            border-radius: 5px;
+        }
+        .link_site{
+            margin-left: 400px;
+            margin-top: -35px;
+        }
+        .link_site img{
+            height: 30px;
+            width: 30px;
+        }
+        .right_nav {
+            line-height: 35px;
+            margin-top: 60px;
+            top: 5px;
+            right: 10px;
+            position: absolute;
+        }
+
+        .right_nav>a {
+            display: inline-block;
+            padding: 2px 6px;
+        }
+
+        .right_nav>a:hover {
+            color: white;
+            background-color: blueviolet;
+            border-radius: 5px;
+        }
+        .weather{
+            margin:0px 0px;
+            margin-top: -65px;
+        }
+        .main_banner{
+            margin-top: -200px;
+            margin-left: 550px;
+            margin-bottom: 40px;
+        }
+        .main_banner img{
+            width: 300px;
+            height: 200px;
+        }
+        .picture{
+            display: inline;
+            margin-bottom: 350px;
+        }
+        .picture img{
+            margin-left: 42px;
+            width: 180px;
+            height: 120px;
+            margin-bottom: 30px;
+        }
+        
+        .footer {
+            height: 650px;
+            width: 960px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .address {
+            float: left;
+            width: 960px;
+            height: 35px;
+            text-align: center;
+            border-top: 1px solid black;
+        }
+
+        .address li {
+            margin-left: 30px;
+            text-align: center;
+            height: 25px;
+            line-height: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="top_content">
+        <div class="logo">
+            <h1>Old goods</h1>
+        </div>
+        <div class="left_nav">
+            <a href="news.html" >오늘의 소식</a>
+            <a href="goods.html" >물건추천</a>
+            <a href="information.html">정보공유</a>
+        </div>
+        <div class="link_site">
+            <a href="#"><img src="./images/youtube.png"></a>&nbsp;
+            <a href="#"><img src="./images/instagram.png"></a>&nbsp;
+            <a href="#"><img src="./images/facebook.png"></a>&nbsp;
+            <a href="#"><img src="./images/twitter.png"></a>&nbsp;
+        </div>
+        <div class="right_nav">
+            <a href="login.html">로그인</a>
+            <a href="membership.html">회원가입</a>
+            <a href="map.html"">찾아오시는길</a>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="weather">
+            <iframe width="300px" height="200px" src="https://forecast.io/embed/#lat=37.567&lon=126.9782&name=서울&color=#F6A8A6&font=arial&units=si" frameborder="0"></iframe>
+        </div>
+        <div class="main_banner">
+            <a href="#"><img src="./images/view033.jpg" alt="mainBanner"></a>
+        </div>
+        <div class="picture">
+            <a href="#"><img src="./images/view033.jpg"></a>&nbsp;
+            <a href="#"><img src="./images/view033.jpg" alt="그림2"></a>
+            <a href="#"><img src="./images/view033.jpg" alt="그림3"></a>
+            <a href="#"><img src="./images/view033.jpg" alt="그림4"></a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="address">
+            <ul>
+                <li>서울 중구 한강대로 405 &nbsp;&nbsp;&nbsp; 대표전화 02-1234-1234 &nbsp;&nbsp;&nbsp; 팩스번호 02-1234-4567</li>
+                <li>Copyright &copy; Oldgoods All right Reserved</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

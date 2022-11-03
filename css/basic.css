@@ -1,0 +1,27 @@
+body{   /*속성 : 값 */
+    width: 960px;
+    margin: 0px auto;/* 가운데 정렬 */
+}
+a{
+    text-decoration: none;
+    color: black;   /* #000000, #000, RGB(0, 0, 0) */
+}
+a:visited{
+    text-decoration: none;
+    color: black;   /* #000000, #000, RGB(0, 0, 0) */  
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    margin: 0px; padding: 0px;
+}
+li{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
